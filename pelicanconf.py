@@ -33,3 +33,6 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = './themes/dev-random2-en'
+
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
+SITEMAP_SAVE_AS = 'sitemap.xml'

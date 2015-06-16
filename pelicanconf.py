@@ -52,3 +52,8 @@ STATIC_PATHS = ['images', 'extra/robots.txt']
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'}
 }
+
+# Settings for pelican-ipynb
+MARKUP = ('md', 'ipynb')
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb']

@@ -18,14 +18,25 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-# LINKS = (('Pelican', 'http://getpelican.com/'),
-#          ('Python.org', 'http://python.org/'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),
-#          ('You can modify those links in your config file', '#'),)
+LINKS = (('Github', 'https://github.com/sornars/'),)
 
 # # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
 #           ('Another social link', '#'),)
+
+PROJECTS = (('www.sornars.com', 'https://github.com/sornars/www.sornars.com', 'This blog!'),
+            ('Taxi Trajectory Prediction (I)', 
+             'https://github.com/sornars/pkdd_15_predict_taxi_service_trajectory_i', 
+             'Kaggle.com competition entry to predict taxi destinations given partial trajectories.'),
+            ('Dotfiles', 
+             'https://github.com/sornars/dotfiles', 
+             'Personal dotfiles stored on Github for easy setup on new machines.'),
+            ('Bike Sharing Demand', 
+             'https://github.com/sornars/bike_sharing_demand', 
+             'Kaggle.com competition entry to predict the number of bicycles that will be rented on a given day in Washington, D.C.'),
+            ('Open Source Contributions', 
+             'https://github.com/pulls?q=is%3Apr+author%3Asornars+is%3Aclosed', 
+             'Various patches to different projects including scikit-learn, urllib3 and astropy.'),) 
 
 DEFAULT_PAGINATION = 10
 
@@ -34,7 +45,7 @@ DEFAULT_PAGINATION = 10
 
 THEME = './themes/dev-random2-en'
 
-DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap', 'portfolio')
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
 STATIC_PATHS = ['images', 'extra/robots.txt']

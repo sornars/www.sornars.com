@@ -1,6 +1,9 @@
+awscli==1.10.6
 backports-abc==0.4
 beautifulsoup4==4.4.1
 blinker==1.4
+botocore==1.3.28
+colorama==0.3.3
 cycler==0.10.0
 decorator==4.0.9
 docutils==0.12
@@ -10,6 +13,7 @@ ipython==4.1.1
 ipython-genutils==0.1.0
 ipywidgets==4.1.1
 Jinja2==2.8
+jmespath==0.9.0
 jsonschema==2.5.1
 jupyter==1.0.0
 jupyter-client==4.1.1
@@ -32,6 +36,7 @@ pexpect==4.0.1
 pickleshare==0.6
 Pillow==3.1.1
 ptyprocess==0.5.1
+pyasn1==0.1.9
 Pygments==2.1.1
 pyparsing==2.1.0
 python-dateutil==2.4.2
@@ -40,6 +45,8 @@ pytz==2015.7
 pyzmq==15.2.0
 qtconsole==4.1.1
 requests==2.9.1
+rsa==3.3
+s3transfer==0.0.1
 simplegeneric==0.8.1
 six==1.10.0
 terminado==0.6

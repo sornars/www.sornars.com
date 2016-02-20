@@ -57,3 +57,4 @@ EXTRA_PATH_METADATA = {
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb']
+IGNORE_FILES = ['.ipynb_checkpoints']

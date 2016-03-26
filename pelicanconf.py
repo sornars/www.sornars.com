@@ -42,7 +42,7 @@ EXTRA_PATH_METADATA = {
 }
 
 DISPLAY_PAGES_ON_MENU = True
-MENUITEMS = (('Blog', SITEURL),)
+MENUITEMS = (('Blog', 'http://www.sornars.com'),)
 # Settings for pelican-ipynb
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']

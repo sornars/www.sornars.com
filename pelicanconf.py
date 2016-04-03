@@ -46,7 +46,7 @@ MENUITEMS = (('Blog', 'http://www.sornars.com'),)
 # Settings for pelican-ipynb
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb']
+PLUGINS = ['ipynb.markup']
 IGNORE_FILES = ['.ipynb_checkpoints']
 
 # Settings for pelican-blue

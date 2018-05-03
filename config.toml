@@ -1,0 +1,17 @@
+baseURL = "http://www.sornars.com/"
+languageCode = "en-gb"
+title = "www.sornars.com"
+theme = "sam"
+
+# [[params.mainMenu]]
+#     link = "/photography"
+#     text = "photography"
+# 
+# [[params.mainMenu]]
+#     link = "/posts"
+#     text = "writing"
+# 
+# [[params.mainMenu]]
+#     link = "/about"
+#     text = "who dis?"
+

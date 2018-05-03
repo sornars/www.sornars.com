@@ -1,6 +1,1 @@
-__pycache__/
-output/
-*.pyc
-cache/
-content/.ipynb_checkpoints/
-content/data/
+/public

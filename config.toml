@@ -1,17 +1,33 @@
 baseURL = "https://www.sornars.com/"
 languageCode = "en-gb"
-title = "www.sornars.com"
+title = "sornars's site"
 theme = "sam"
+# googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
+
+[params]
+#     dateform            = "Mon Jan 02, 2006"
+#     dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+#     favicon             = "/sam.ico"
+#     pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
+#     pygmentsCodefences  = true
+    homepage = "main" # What to call the home page link
+#     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+#     clickablePhotos     = true                          # Allow links to the full size images
+    footerText = "The blog of Shivan Sornarajah"
+
+# # Metadata
+#     description         = "A new Hugo site."            # Max 160 characters show in search results
+#     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+#     primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
 
 # [[params.mainMenu]]
-#     link = "/photography"
-#     text = "photography"
-# 
-# [[params.mainMenu]]
-#     link = "/posts"
-#     text = "writing"
-# 
+#     link = "/gallery"
+#     text = "gallery"
+
 # [[params.mainMenu]]
 #     link = "/about"
-#     text = "who dis?"
-
+#     text = "who is sam?"

@@ -1,4 +1,4 @@
-baseURL = "http://www.sornars.com/"
+baseURL = "https://www.sornars.com/"
 languageCode = "en-gb"
 title = "www.sornars.com"
 theme = "sam"

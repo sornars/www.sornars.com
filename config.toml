@@ -2,7 +2,7 @@ baseURL = "https://www.sornars.com/"
 languageCode = "en-gb"
 title = "sornars's site"
 theme = "sam"
-googleAnalytics = "UA-118757859-1" # Tracking code, eg. "UA-111111111-1"
+# googleAnalytics = "UA-118757859-1" # Tracking code, eg. "UA-111111111-1"
 
 [params]
 #     dateform            = "Mon Jan 02, 2006"
